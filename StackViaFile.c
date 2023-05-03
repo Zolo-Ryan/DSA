@@ -7,7 +7,7 @@ typedef struct STACK{
 	void (*push)(Stack*,int);
 	int (*pop)(Stack*);
 } Stack;
-Stack nice;
+
 Stack init(Stack*);
 void push(Stack*,int);
 int pop(Stack*);
